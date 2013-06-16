@@ -1,0 +1,19 @@
+{
+  "name": "Battlefield Player Stats",
+  "version": "2.0",
+  "manifest_version": 2,
+  "description": "Quickly access the stats of a BF2 , Battlefield Bad Company 2 , BF3 player.",
+  "options_page": "options.html",
+  "icons": { 	"16": "bf3_16.png",
+                "48": "bf3_48.png",
+  				"128": "bf3_128.png" },
+  "browser_action": {
+    "default_icon": "bf3_24.png",
+	"default_popup": "index.html"
+  },
+  "permissions": [
+    "http://*.statsverse.com/",
+	"http://*.bf3stats.com/",
+	"storage"
+  ]
+}
